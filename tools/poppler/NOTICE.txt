@@ -1,0 +1,9 @@
+Poppler (pdftocairo) for Windows, used by the PdfDrop add-in to convert PDF pages to SVG.
+
+Source:  https://github.com/oschwartz10612/poppler-windows (release v26.09.0-0)
+Upstream: https://poppler.freedesktop.org/
+License: GNU General Public License v2 or v3 (see https://gitlab.freedesktop.org/poppler/poppler/-/blob/master/COPYING).
+Bundled third-party libraries (cairo, freetype, fontconfig, ICU, libcurl, OpenSSL, libpng, libjpeg, OpenJPEG, libtiff, zlib, zstd, ...) are under their own licenses.
+
+Only pdftocairo.exe and the DLLs it needs are included here (bin\), plus poppler's encoding data (share\poppler).
+If this folder is missing, install.ps1 downloads the latest release and recreates it.

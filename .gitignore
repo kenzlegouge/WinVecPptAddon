@@ -1,0 +1,14 @@
+# Poppler binaries (~70 MB) are not versioned: install.ps1 downloads them, and the release zip ships them.
+tools/poppler/bin/
+tools/poppler/share/
+
+# Release archives built by make-release.ps1 (attach them to a GitHub release instead)
+dist/
+*.zip
+
+# Local test documents
+*.pdf
+
+# Build leftovers
+*.pdb
+obj/
